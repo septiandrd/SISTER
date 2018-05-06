@@ -12,8 +12,6 @@ chars = list(string.printable)[10:36]
 chars.insert(0,'a')
 base = len(chars)
 
-crackthis = open(sys.argv[1]).read()
-
 def numberToBase(n, b):
     digits = []
     while n:
@@ -23,7 +21,10 @@ def numberToBase(n, b):
 
 if __name__ == '__main__':
 
+    crackthis = open(sys.argv[1]).read()
+
     if rank == 0:
+
         solved = False
 
         process = 1
@@ -33,6 +34,7 @@ if __name__ == '__main__':
             print('Sending job to process',process)
             process += 1
 
+        print('Cracking password...')
         start = time.time()
 
         stopped_process = 0

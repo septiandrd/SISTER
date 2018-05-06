@@ -1,5 +1,7 @@
 import string
 import time
+import _md5
+import sys
 
 def numberToBase(n, b):
     digits = []
@@ -13,23 +15,22 @@ chars = list(string.printable)[10:36]
 chars.insert(0,'a')
 base = len(chars)
 
-print(chars)
-
-n = [9999900,10000000]
-
-crackthis = 'medan'
+crackthis = open(sys.argv[1]).read()
 
 start = time.time()
 
-for i in range(n[0], n[1]):
+print('Cracking password...')
+
+for i in range(0, 15000000):
     lst = numberToBase(i, base)
     word = ''
     for x in lst:
         word += str(chars[x])
-    # print(word)
-    if crackthis == word:
+    if crackthis == _md5.md5(word.encode('utf8')).hexdigest():
         solved = True
         break
 
-print('Password :',word)
-print('finished in',time.time()-start)
+print('Password \t:',word)
+print('Time \t\t:',time.time()-start,'second')
+
+

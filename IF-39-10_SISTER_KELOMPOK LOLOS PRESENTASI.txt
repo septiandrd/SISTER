@@ -1,0 +1,76 @@
+IF-39-10
+
+-1- 
+Fero Resyanto 			1301154318
+Isa Mulia Insan 		1301150038
+Muhammad Reza WP 		1301154290
+Putra Cahya Purnama 		1301154304
+
+Revisi :
+- Bikin flowchart (cara kerja) aplikasi lelang barangnya (masukkan di bab desain)
+- diagram pub-sub dan push-pull dibuat ulang menggunakan gambar sendiri dan kaitkan dengan aplikasi yang dibuat
+- Hasil dibuat grafik perbandingan (diuji coba 5x, kemudian dibikin grafik perbandingan respon time nya)
+
+-2-
+Nadya Aditama		(1301154556)
+Ilma Chaeroh		(1301154528)
+Ridea V. P. Siwabessy	(1301154458)
+Yuwana Putri		(1301154514)
+
+
+Revisi :
+- Bikin flowchart dan jelaskan (cara kerja) dari masing2 aplikasi ketika menggunakan RPC dan menggunakan client-server biasa (masukkan di bab desain)
+- Uji cobakan min 5x kemudian, bikin grafik perbandingannya
+- Buat langkah-langkah pengeksekusian program
+
+-3-
+Husnul Hidayat (1301154150)
+Fadila Zain (1301150444)
+Aliva Dilla Agustin (1301154486)
+Arfini Ainiyyah Destariani (1301154542)
+
+Revisi :
+- Pembahasan model terdistribusi pada kasus harus lebih diangkat. Kaitkan aplikasi tersebut dengan metode sistem terdistribusi, jabarkan perbedaannya jika aplikasi tersebut tidak memakai sistem terdistribusi (jelaskan di Latar Belakang, dasar teori dan juga desain sistem)
+- Bikin flowchart (cara kerja) aplikasi
+- Kesimpulan pun harus dikaitkan dengan kerja aplikasi sebagai sistem terdistribusi (bisa membahas mengenai thread/socketnya)
+
+-4-
+Arsya Ardiansa (1301150024)
+Aditya Arisandi (1301154122)
+Maurice Fikry (1301154206)
+Windias Friliani (1301154570)
+
+Revisi :
+- Hasil nya dibuat grafik perbandingan, dan diuji coba min 5x (lebih banyak, lebih baik)
+
+PRESENTASI
+ -1-
+Fakhri Fauzan
+M Satrio Wibowo
+Arief Budhiman
+Firdausi Aufa F
+
+Revisi :
+- Bikin arsitektur sistem dengan dan tanpa RPC
+- Implementasi di spek komputer yang sama
+- Diujicoba 5x + bikin grafik
+
+-2
+Andi M Ishlah
+Dimas Pangestu Restu P
+Lutfi Anggit
+
+Revisi :
+- Munculin respon time antara tersentralisasi dan terdistribusi 
+- coba min 5x, munculkan grafik perbandingan.
+- Gambar arsitektur 
+
+-3-
+Septian Dwi I
+Fiqqih Maulana S
+Fegry Dailamy F
+M Choir Al Fatih
+
+Revisi :
+- bikin trial 10x dan grafik
+- bikin arsitektur paralel dan non paralel untuk kasus brute force
